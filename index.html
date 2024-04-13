@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mahmoud Essam</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.cdnfonts.com/css/general-sans?styles=135312,135310,135313,135303" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+  <link rel="stylesheet" href="css/Main.css">
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+  <link rel="icon" type="image/png" sizes="1616" href="images/logo16x16.png">
+
+</head>
+
+<body class="antialiased bg-body text-body font-body">
+
+  <nav class="header" id="header">
+    <nav class="nav container mx-auto overflow-hidden">
+      <div class="relative z-20 flex items-center justify-between px-4 py-5 bg-transparent">
+        <div class="w-auto mr-14">
+          <a href="#">
+            <img src="images/logo-nav.png" alt="Logo">
+          </a>
+        </div>
+        <div class="w-auto nav__menu hidden lg:block">
+          <ul class="flex items-center mr-16">
+            <li class="mr-9 font-medium hover:text-gray-700"><a class="active-link" href="#home">Home</a></li>
+            <li class="mr-9 font-medium hover:text-gray-700"><a href="#Aboutme">About Me</a></li>
+            <li class="mr-9 font-medium hover:text-gray-700"><a href="#Latestprojects">Latest Projects</a></li>
+            <li class="mr-9 font-medium hover:text-gray-700"><a href="#Bookacall">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="w-auto hidden lg:block">
+          <div class="inline-block">
+            <button
+              class="flex flex-wrap items-center py-2.5 px-4 text-base w-full font-medium border border-gray-400 hover:border-gray-500 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200"
+              type="button">
+              <svg class="mr-2.5" width="19" height="18" viewBox="0 0 19 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.75 3.75C2.75 2.92157 3.42157 2.25 4.25 2.25H6.70943C7.03225 2.25 7.31886 2.45657 7.42094 2.76283L8.5443 6.13291C8.66233 6.48699 8.50203 6.87398 8.1682 7.0409L6.47525 7.88737C7.30194 9.72091 8.77909 11.1981 10.6126 12.0247L11.4591 10.3318C11.626 9.99796 12.013 9.83767 12.3671 9.9557L15.7372 11.0791C16.0434 11.1811 16.25 11.4677 16.25 11.7906V14.25C16.25 15.0784 15.5784 15.75 14.75 15.75H14C7.7868 15.75 2.75 10.7132 2.75 4.5V3.75Z"
+                  stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <a href="https://cal.com/mahmoud-essam-2gdc5p">Book a call</a>
+            </button>
+          </div>
+        </div>
+        <div class="w-auto lg:hidden">
+          <a href="#">
+            <svg class="navbar-burger" width="51" height="51" viewBox="0 0 56 56" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <rect width="56" height="56" rx="28" fill="currentColor"></rect>
+              <path d="M37 32H19M37 24H19" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hidden lg:hidden navbar-menu fixed top-10 left-10 right-10 bottom-0 z-50">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
+        <nav class="relative z-10 px-9 pt-8 bg-white rounded-lg h-auto overflow-y-auto">
+          <div class="flex flex-wrap justify-between h-full">
+            <div class="w-full">
+              <div class="flex items-center justify-between -m-2">
+                <div class="w-auto p-2">
+                  <a class="inline-block" href="#">
+                    <img src="images/logo-nav.png" alt="Logo">
+                  </a>
+                </div>
+                <div class="w-auto p-2">
+                  <a class="" href="#home">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="flex nav-mob flex-col justify-center py-16 w-full">
+              <ul>
+                <li class="mb-12"><a class="active-link font-medium hover:text-gray-700" href="#home">Home</a></li>
+                <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#Aboutme">About Me</a></li>
+                <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#Latestprojects">Latest Projects</a>
+                </li>
+                <li class="mb-12"><a class="font-medium hover:text-gray-700" href="#Bookacall">Reviews</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col justify-end w-full pb-8">
+              <div class="flex flex-wrap">
+                <div class="w-full">
+                  <div class="block">
+                    <button
+                      class="flex flex-wrap justify-center items-center py-2.5 px-4 text-base w-full font-medium border border-gray-400 hover:border-gray-500 rounded-xl focus:ring focus:ring-gray-50 bg-white hover:bg-gray-50 transition ease-in-out duration-200"
+                      type="button">
+                      <svg class="mr-2.5" width="19" height="18" viewBox="0 0 19 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M2.75 3.75C2.75 2.92157 3.42157 2.25 4.25 2.25H6.70943C7.03225 2.25 7.31886 2.45657 7.42094 2.76283L8.5443 6.13291C8.66233 6.48699 8.50203 6.87398 8.1682 7.0409L6.47525 7.88737C7.30194 9.72091 8.77909 11.1981 10.6126 12.0247L11.4591 10.3318C11.626 9.99796 12.013 9.83767 12.3671 9.9557L15.7372 11.0791C16.0434 11.1811 16.25 11.4677 16.25 11.7906V14.25C16.25 15.0784 15.5784 15.75 14.75 15.75H14C7.7868 15.75 2.75 10.7132 2.75 4.5V3.75Z"
+                          stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                      <a href="https://cal.com/mahmoud-essam-2gdc5p">Book a call</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+  </nav>
+
+
+
+
+
+
+
+  <main class="main">
+
+    <section id="home" class="pt-5 home">
+      <div class="mt-28 overflow-hidden pb-16">
+        <div class="container px-4 mx-auto">
+          <div class="mb-16 relative bg-indigo-50 overflow-hidden rounded-3xl">
+            <img class="absolute left-0 bottom-0" src="flaro-assets/images/headers/gradient3.svg" alt="">
+            <div class="relative z-20 flex flex-wrap justify-between items-center -m-8">
+              <div class="info w-full lg:w-1/2 p-20 lg:pr-0 lg:pl-28 lg:py-28">
+
+
+                <!-- /*st-social-link*/ -->
+                <div class="st-social-info mb-3">
+                  <div class="st-social-link">
+                    <a href="https://dribbble.com/mmuessam" target="_blank" class="st-social-btn active">
+                      <span class="st-social-icon"><i class="fab fa-dribbble "></i></span>
+                      <span class="st-icon-name hidden md:block">Dribbble</span>
+                    </a>
+                    <a href="https://www.behance.net/mmuessam" target="_blank" class="st-social-btn">
+                      <span class="st-social-icon"><i class="fab fa-behance"></i></span>
+                      <span class="st-icon-name hidden md:block">Behance</span>
+                    </a>
+                    <a href="https://twitter.com/mauessam" target="_blank" class="st-social-btn">
+                      <span class="st-social-icon"><i class="fab fa-twitter"></i></span>
+                      <span class="st-icon-name hidden md:block">Twitter</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mmuessam/" target="_blank" class="st-social-btn">
+                      <span class="st-social-icon"><i class="fab fa-linkedin"></i></span>
+                      <span class="st-icon-name hidden md:block">LinkedIn</span>
+                    </a>
+                  </div>
+                </div>
+
+                <h2 class="mb-7 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none">
+                  <span class="text-6xl font-medium ">Hey👋, I am </span> <br> Mahmoud Essam <br> <span
+                    class="text-6xl font-medium">Product Designer</span>
+                </h2>
+                <p class="mb-10 text-lg text-gray-900 font-medium">
+                  Experienced designer and developer with a passion for impactful business solutions. Specializing in
+                  web/mobile UX/UI design, aiming for product excellence across diverse industries.</p>
+
+                <div class="mb-6  flex flex-col md:flex-row   gap-2 justify-between w-auto  lg:w-3/4  items-center  ">
+                  <button
+                    class=" py-4 px-6 w-full text-white font-semibold border border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200"
+                    type="button"><a href="https://get-tap.app/mmuessam" target="_blank">Contact Me</a></button>
+
+                  <button
+                    class=" py-4 px-6 w-full text-black font-semibold border-2 border-indigo-700 rounded-xl focus:ring focus:ring-indigo-300   transition ease-in-out duration-200"
+                    type="button"><a href="#Latestprojects">See my work</a></button>
+                </div>
+
+              </div>
+
+              <img src="images/mahmoud-essam.png" alt="" class="w-full lg:w-1/2	 p-20 me ">
+
+            </div>
+          </div>
+          <p class="mb-9 text-gray-900 text-center font-medium">The largest companies designed for it </p>
+          <div class="logos flex flex-wrap justify-center items-center -m-8">
+            <div class="w-auto p-8">
+              <img src="images/Obekan.png" alt="">
+            </div>
+            <div class="w-auto p-8">
+              <img src="images/logo_talbinah.png" alt="">
+            </div>
+            <div class="w-auto p-8">
+              <img src="images/logo_neom.svg.png" alt="">
+            </div>
+            <div class="w-auto p-8">
+              <img src="images/LOGO_SWCC.png" alt="">
+            </div>
+            <div class="w-auto p-8">
+              <img src="images/adahi-logo.png.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="py-20 bg-white overflow-hidden tips">
+      <div class="container px-4 mx-auto">
+        <div class="flex flex-wrap items-center -m-8">
+          <div class="w-full md:w-1/3 p-8">
+            <div class="md:max-w-sm">
+              <div class="flex flex-wrap items-center -m-3">
+                <div class="w-auto p-3">
+                  <div class="flex items-center justify-center w-20 h-20 bg-indigo-100 rounded-full">
+                    <img class="w-10" src="images/ui-design.svg" alt="">
+                  </div>
+                </div>
+                <div class="flex-1 p-3">
+                  <h3 class="text-xl font-semibold"> UI Design <br> <span class="font-medium">
+                      Crafting engaging digital experiences for users. </span> </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/3 p-8">
+            <div class="md:max-w-sm">
+              <div class="flex flex-wrap items-center -m-3">
+                <div class="w-auto p-3">
+                  <div class="flex items-center justify-center w-20 h-20 bg-indigo-100 rounded-full">
+                    <img class="w-14" src="images/ux.svg" alt="">
+                  </div>
+                </div>
+                <div class="flex-1 p-3">
+                  <h3 class="text-xl font-semibold"> UX - Research & Analysis <br> <span class="font-medium">
+                      Informed design decisions for optimal experiences. </span> </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/3 p-8">
+            <div class="md:max-w-sm">
+              <div class="flex flex-wrap items-center -m-3">
+                <div class="w-auto p-3">
+                  <div class="flex items-center justify-center w-20 h-20 bg-indigo-100 rounded-full">
+                    <img class="w-14" src="images/front-end.svg" alt="">
+                  </div>
+                </div>
+                <div class="flex-1 p-3">
+                  <h3 class="text-xl font-semibold"> Front-End Development <br> <span class="font-medium">
+                      Converting UI design into interactive designs. </span> </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="Aboutme" class="py-32 bg-blueGray-100 overflow-hidden aboutme">
+      <div class="container px-4 mx-auto">
+        <div class="relative bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden rounded-4xl"
+          style="height: 542px; background-image: url('images/cover1.jpg');">
+          <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50" style="backdrop-filter: blur(6px);">
+          </div>
+          <div
+            class="flex flex-wrap items-center content-center gap-5   absolute top-0 left-0 w-full z-10 p-16 py-20 text-center h-full overflow-y-auto">
+            <h2 class=" text-4xl md:text-6xl xl:text-10xl text-white font-bold tracking-px-n  leading-none ">
+              I specialize in UI/UX design for both mobile and website platforms, coupled with expert front-end
+              development.</h2>
+            <p class=" text-base text-gray-200 leading-normal max-w-lg mx-auto">
+              Unlock the potential of your online presence with our tailored solutions.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Latestprojects" class="Latestprojects pt-32 pb-36 bg-white overflow-hidden">
+      <div class="container px-4 mx-auto">
+        <div class=" mx-auto">
+          <div class="inline-block mb-7 px-2 py-1 text-sm font-semibold bg-green-100 rounded-full">
+            <div class="flex flex-wrap items-center -m-1">
+              <div class="w-auto p-1">
+                <p>👋 Hello, this is the latest project</p>
+              </div>
+              <div class="w-auto p-1">
+                <svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.66667 3.41675L12.75 7.50008M12.75 7.50008L8.66667 11.5834M12.75 7.50008L2.25 7.50008"
+                    stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <h2 class="mb-6 text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none">Check Out
+            My Latest Projects</h2>
+          <p class="mb-16 text-lg text-gray-600 font-medium">I'm here to help if you're searching for a product designer
+            to bring your idea to life or a design partner to help take your business to the next level.</p>
+
+
+          <div class=" swiper mySwiper">
+            <div class="swiper-wrapper">
+
+              <div
+                class=" swiper-slide relative w-full md:w-4/2 p-4 pb-10 pt-20 lg:pt-10 px-8 sm:px-12 xl:px-32 bg-indigo-50 overflow-hidden rounded-4xl">
+                <img class="absolute z-0 left-0 bottom-0" src="flaro-assets/images/headers/gradient3.svg" alt="">
+                <div class="flex flex-wrap -mx-4 items-center">
+                  <div class="w-full z-50  lg:w-1/2 px-4 mb-12 lg:mb-0">
+                    <div class="max-w-lg mx-auto">
+                      <h3 class="text-black font-bold text-5xl lg:text-7xl tracking-tight mb-6">Mental Health <br>
+                        Website </h3>
+                      <p class="max-w-sm text-lg text-black mb-10">Take a look at new the design concept for Mental
+                        Health Website.</p>
+                      <a class=" group inline-flex py-5 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200"
+                        href="https://dribbble.com/shots/23845396-Mental-Health-Website" target="_blank">
+                        <span class="mr-2">Full Project</span>
+                        <span class="group-hover:rotate-45 transform transition duration-100">
+                          <svg width="10" height="10" viewbox="0 0 10 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1L1 9" stroke="currentColor" stroke-width="1.3" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 8.33571V1H1.66429" stroke="currentColor" stroke-width="1.3"
+                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full  lg:w-1/2 px-4">
+                    <img class="block rounded-4xl" src="images/talbinah.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class=" swiper-slide relative w-full md:w-4/2 p-4 pb-10 pt-20 lg:pt-10 px-8 sm:px-12 xl:px-32 bg-indigo-50 overflow-hidden rounded-4xl">
+                <img class="absolute z-0 left-0 bottom-0" src="flaro-assets/images/headers/gradient3.svg" alt="">
+                <div class="flex flex-wrap -mx-4 items-center">
+                  <div class="w-full z-50  lg:w-1/2 px-4 mb-12 lg:mb-0">
+                    <div class="max-w-lg mx-auto">
+                      <h3 class="text-black font-bold text-5xl lg:text-7xl tracking-tight mb-6">Mental Health <br> App
+                      </h3>
+                      <p class="max-w-sm text-lg text-black mb-10">Take a look at new the design concept for Mental
+                        Health App.</p>
+                      <a class=" group inline-flex py-5 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200"
+                        href="https://dribbble.com/shots/23844835-Mental-Health-App" target="_blank">
+                        <span class="mr-2">Full Project</span>
+                        <span class="group-hover:rotate-45 transform transition duration-100">
+                          <svg width="10" height="10" viewbox="0 0 10 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1L1 9" stroke="currentColor" stroke-width="1.3" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 8.33571V1H1.66429" stroke="currentColor" stroke-width="1.3"
+                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full h-full lg:w-1/2 px-4">
+                    <img class="block rounded-4xl" src="images/Mental Health app.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class=" swiper-slide relative w-full md:w-4/2 p-4 pb-10 pt-20 lg:pt-10 px-8 sm:px-12 xl:px-32 bg-indigo-50 overflow-hidden rounded-4xl">
+                <img class="absolute z-0 left-0 bottom-0" src="flaro-assets/images/headers/gradient3.svg" alt="">
+                <div class="flex flex-wrap -mx-4 items-center">
+                  <div class="w-full z-50  lg:w-1/2 px-4 mb-12 lg:mb-0">
+                    <div class="max-w-lg mx-auto">
+                      <h3 class="text-black font-bold text-5xl lg:text-7xl tracking-tight mb-6">Fintech<br> Web App</h3>
+                      <p class="max-w-sm text-lg text-black mb-10">Take a look at new the design concept for Fintech Web
+                        App</p>
+                      <a class=" group inline-flex py-5 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200"
+                        href="https://dribbble.com/shots/23926637-Fintech-Web-App" target="_blank">
+                        <span class="mr-2">Full Project</span>
+                        <span class="group-hover:rotate-45 transform transition duration-100">
+                          <svg width="10" height="10" viewbox="0 0 10 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1L1 9" stroke="currentColor" stroke-width="1.3" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 8.33571V1H1.66429" stroke="currentColor" stroke-width="1.3"
+                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full  lg:w-1/2 px-4">
+                    <img class="block rounded-4xl" src="images/Fintech Web-App.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class=" swiper-slide relative w-full md:w-4/2 p-4 pb-10 pt-20 lg:pt-10 px-8 sm:px-12 xl:px-32 bg-indigo-50 overflow-hidden rounded-4xl">
+                <img class="absolute z-0 left-0 bottom-0" src="flaro-assets/images/headers/gradient3.svg" alt="">
+                <div class="flex flex-wrap -mx-4 items-center">
+                  <div class="w-full z-50  lg:w-1/2 px-4 mb-12 lg:mb-0">
+                    <div class="max-w-lg mx-auto">
+                      <h3 class="text-black font-bold text-5xl lg:text-7xl tracking-tight mb-6">Fintech <br> Landing
+                        Page </h3>
+                      <p class="max-w-sm text-lg text-black mb-10">Take a look at new the design concept for Fintech
+                        Landing Page.</p>
+                      <a class=" group inline-flex py-5 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200"
+                        href="https://dribbble.com/shots/23866859-Fintech-Landing-Page" target="_blank">
+                        <span class="mr-2">Full Project</span>
+                        <span class="group-hover:rotate-45 transform transition duration-100">
+                          <svg width="10" height="10" viewbox="0 0 10 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 1L1 9" stroke="currentColor" stroke-width="1.3" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 8.33571V1H1.66429" stroke="currentColor" stroke-width="1.3"
+                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-full  lg:w-1/2 px-4">
+                    <img class="block rounded-4xl" src="images/Fintech Landing Page.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative Bookacall md:pb-28 lg:pt-0 lg:pb-0 bg-black overflow-hidden">
+      <img class="absolute bottom-0 right-0" src="flaro-assets/images/cta/gradient2.svg" alt="">
+      <div class="relative z-10 container px-4 mx-auto">
+        <div class="flex flex-wrap items-center justify-center -m-8">
+          <div class=" p-8">
+            <div class="md:max-w-lg py-16 text-center">
+              <h2 class="mb-6 text-4xl  md:text-5xl text-white font-bold tracking-px-n leading-tight">You can now book a
+                half-hour meeting for free</h2>
+              <p class="mb-8 text-white text-opacity-70 font-medium md:max-w-md">Unlock the opportunity to schedule a
+                complimentary 30-minute consultation.</p>
+              <div class="flex flex-wrap justify-center -m-2">
+                <div class="w-full md:w-auto p-2">
+                  <button
+                    class="inline-flex items-center justify-center py-4 px-6 w-full font-medium rounded-xl shadow-6xl focus:ring focus:ring-gray-300 bg-white hover:bg-gray-100 transition ease-in-out duration-200"
+                    type="button"> <svg class="mr-2.5" width="19" height="18" viewbox="0 0 19 18" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M2.75 3.75C2.75 2.92157 3.42157 2.25 4.25 2.25H6.70943C7.03225 2.25 7.31886 2.45657 7.42094 2.76283L8.5443 6.13291C8.66233 6.48699 8.50203 6.87398 8.1682 7.0409L6.47525 7.88737C7.30194 9.72091 8.77909 11.1981 10.6126 12.0247L11.4591 10.3318C11.626 9.99796 12.013 9.83767 12.3671 9.9557L15.7372 11.0791C16.0434 11.1811 16.25 11.4677 16.25 11.7906V14.25C16.25 15.0784 15.5784 15.75 14.75 15.75H14C7.7868 15.75 2.75 10.7132 2.75 4.5V3.75Z"
+                        stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+
+                    <a href="https://cal.com/mahmoud-essam-2gdc5p">Book a call</a>
+
+                  </button>
+
+                </div>
+                <div class="w-full md:w-auto p-2">
+                  <button
+                    class="inline-flex items-center justify-center py-4 px-6 w-full text-white font-medium border border-white border-opacity-20 hover:border-opacity-40 rounded-xl focus:ring focus:ring-white focus:ring-opacity-40 bg-transparent hover:bg-black hover:bg-opacity-5 transition ease-in-out duration-200"
+                    type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mr-2.5" width="19" height="19" viewBox="0 0 46 46"
+                      fill="none">
+                      <g clip-path="url(#clip0_932_611)">
+                        <path
+                          d="M14.305 28.075C20.7765 34.4899 20.5127 34.4117 21.2259 34.8248L21.1838 1.79737C21.1826 0.80601 21.9852 0.00125659 22.9767 0H22.9789C23.9694 0 24.7728 0.80215 24.774 1.79288L24.8161 34.8249C25.5306 34.4111 25.2779 34.4778 31.695 28.1172C32.3961 27.4161 33.5329 27.4161 34.2337 28.1172C34.9348 28.8183 34.9348 29.9548 34.2338 30.6558L28.0985 36.7912C25.2919 39.5978 20.7497 39.5973 17.9437 36.7912L11.7662 30.6137C11.0652 29.9127 11.0652 28.7761 11.7662 28.0751C12.4672 27.374 13.6039 27.374 14.305 28.075ZM38.7971 17.6372H33.5912C32.5998 17.6372 31.7961 18.4409 31.7961 19.4323C31.7961 20.4237 32.5998 21.2274 33.5912 21.2274H38.7971C40.7767 21.2274 42.3873 22.838 42.3873 24.8177V38.8195C42.3873 40.7992 40.7767 42.4098 38.7971 42.4098H7.20292C5.22326 42.4098 3.61267 40.7992 3.61267 38.8195V24.8177C3.61267 22.838 5.22326 21.2274 7.20292 21.2274H12.4088C13.4002 21.2274 14.2039 20.4237 14.2039 19.4323C14.2039 18.4409 13.4002 17.6372 12.4088 17.6372H7.20292C3.2436 17.6372 0.0224304 20.8583 0.0224304 24.8177V38.8195C0.0224304 42.7788 3.2436 46 7.20292 46H38.7971C42.7564 46 45.9776 42.7788 45.9776 38.8195V24.8177C45.9776 20.8583 42.7564 17.6372 38.7971 17.6372Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_932_611">
+                          <rect width="46" height="46" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <a href="https://drive.google.com/file/d/1p0ZcqNIggmo_MCz1szwO17Yx15OK8Yw2/view?usp=drive_link">Download
+                      CV</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Bookacall" class="relative pt-24 pb-32 bg-white reviews overflow-hidden">
+      <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        src="flaro-assets/images/testimonials/gradient3.svg" alt="">
+      <div class="relative z-10 container px-4 mx-auto">
+        <div class="flex flex-wrap justify-between items-end -m-2 mb-12">
+          <div class="w-auto p-2">
+            <h2 class="text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">Customer Reviews</h2>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-5 -m-2">
+
+          <div class=" swiper mySwiper-Customer ">
+            <div class="swiper-wrapper ">
+
+              <div
+                class="swiper-slide border-solid border-2 border-gray-100 md:border-none  bg-white  rounded-3xl p-8 w-96 h-80">
+                <div class="flex items-center flex-wrap gap-4 mb-20">
+                  <div class="bg-orange-50 rounded-xl overflow-hidden">
+                    <img class="w-14" src="images/cover1.jpg" alt="">
+                  </div>
+                  <div class="p-2 rounded-lg bg-gray-50 bg-opacity-50 w-1/2">
+                    <p>
+                      <span class="font-bold font-heading">Moahmmed Momtaz, <br></span>
+                      <span class="text-gray-400">CEO</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="text-lg">“I am very pleased with the service you provided! Your quick response and superior
+                  quality of work greatly impacted my experience. I will not hesitate to do business with you again.”
+                </p>
+              </div>
+
+              <div
+                class="swiper-slide border-solid border-2 border-gray-100 md:border-none  bg-white  rounded-3xl p-8 w-96 h-80">
+                <div class="flex items-center flex-wrap gap-4 mb-20">
+                  <div class="bg-orange-50 rounded-xl overflow-hidden">
+                    <img class="w-14" src="images/cover1.jpg" alt="">
+                  </div>
+                  <div class="p-2 rounded-lg bg-gray-50 bg-opacity-50 w-1/2">
+                    <p>
+                      <span class="font-bold font-heading">Moahmmed Momtaz, <br></span>
+                      <span class="text-gray-400">CEO</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="text-lg">“The project was completed on time and delivered with high quality. I am very pleased
+                  with the result and highly recommend them.”</p>
+              </div>
+
+              <div
+                class="swiper-slide border-solid border-2 border-gray-100 md:border-none  bg-white  rounded-3xl p-8 w-96 h-80">
+                <div class="flex items-center flex-wrap gap-4 mb-20">
+                  <div class="bg-orange-50 rounded-xl overflow-hidden">
+                    <img class="w-14" src="images/cover1.jpg" alt="">
+                  </div>
+                  <div class="p-2 rounded-lg bg-gray-50 bg-opacity-50 w-1/2">
+                    <p>
+                      <span class="font-bold font-heading">Moahmmed Momtaz, <br></span>
+                      <span class="text-gray-400">CEO</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="text-lg">“The project was completed on time and delivered with high quality. I am very pleased
+                  with the result and highly recommend them.”</p>
+              </div>
+
+              <div
+                class="swiper-slide border-solid border-2 border-gray-100 md:border-none  bg-white  rounded-3xl p-8 w-96 h-80">
+                <div class="flex items-center flex-wrap gap-4 mb-20">
+                  <div class="bg-orange-50 rounded-xl overflow-hidden">
+                    <img class="w-14" src="images/cover1.jpg" alt="">
+                  </div>
+                  <div class="p-2 rounded-lg bg-gray-50 bg-opacity-50 w-1/2">
+                    <p>
+                      <span class="font-bold font-heading">Moahmmed Momtaz, <br></span>
+                      <span class="text-gray-400">CEO</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="text-lg">“The project was completed on time and delivered with high quality. I am very pleased
+                  with the result and highly recommend them.”</p>
+              </div>
+
+              <div
+                class="swiper-slide  border-solid border-2 border-gray-100 md:border-none bg-white  rounded-3xl p-8 w-96 h-80">
+                <div class="flex items-center flex-wrap gap-4 mb-20">
+                  <div class="bg-orange-50 rounded-xl overflow-hidden">
+                    <img class="w-14" src="images/cover1.jpg" alt="">
+                  </div>
+                  <div class="p-2 rounded-lg bg-gray-50 bg-opacity-50 w-1/2">
+                    <p>
+                      <span class="font-bold font-heading">Moahmmed Momtaz, <br></span>
+                      <span class="text-gray-400">CEO</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="text-lg">“The project was completed on time and delivered with high quality. I am very pleased
+                  with the result and highly recommend them.”</p>
+              </div>
+
+            </div>
+
+            <div class="swiper-pagination "></div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class=" buttons relative pt-12 pb-12 bg-blueGray-100 overflow-hidden">
+      <img class="absolute top-0 left-0" src="flaro-assets/images/logos/gradient3.svg" alt="">
+      <div class="relative z-10 container px-4 mx-auto">
+
+        <div class="flex flex-wrap max-w-5xl mx-auto -m-3">
+
+          <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+            <div class="flex items-center justify-center py-8 px-9 h-full bg-white rounded-3xl">
+
+              <a href="https://dribbble.com/mmuessam" target="_blank">
+                <img src="images/Dribbble.svg" alt="">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+            <div class="flex items-center justify-center py-8 px-9 h-full bg-white rounded-3xl">
+              <a href="https://www.behance.net/mmuessam" target="_blank">
+                <img src="images/Behance.svg" alt="">
+              </a>
+
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+            <div class="flex items-center justify-center py-8 px-9 h-full bg-white rounded-3xl">
+              <a href="https://github.com/mmuessam" target="_blank">
+                <img src="images/Github.svg" alt="">
+              </a>
+
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 lg:w-1/4 p-3">
+            <div class="flex items-center justify-center py-8 px-9 h-full bg-white rounded-3xl">
+              <a href="https://twitter.com/mauessam" target="_blank">
+                <img src="images/x.svg" alt="">
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="relative py-16 bg-white overflow-hidden footer" >
+      <img class="absolute top-0 left-0 h-full" src="flaro-assets/images/footers/gradient4.svg" alt="">
+      <div class="relative z-10 container px-4 mx-auto">
+        <div class="flex flex-wrap justify-center items-center -m-8">
+          <div class="w-auto p-8 container">
+            <a href="#">
+              <img src="images/logo-nav.png" alt="">
+            </a>
+
+          </div>
+          <p class="text-center font-bold">
+            <span>Ⓒ Copyright. All rights reserved by</span>
+            <a class="" style="color: #258497;" href="#">ME</a>
+          </p>
+
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=+201122133412&text=Hello!" class="float" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+  </main>
+  <!--=============== Scripts ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery.slick.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

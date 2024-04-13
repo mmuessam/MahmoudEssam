@@ -1,0 +1,146 @@
+
+
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.case-details{
+  display: none;
+}
+.case:hover{
+  .case-details{
+    display: block;
+  }
+}
+
+
+.st-social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.st-social-link .st-social-btn {
+  border-radius: 50px;
+  /* background-color: #070d1b; */
+  border: 0.5px solid #3f4551;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.st-social-link .st-social-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.st-social-link .st-social-btn .st-social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.st-social-link .st-social-btn .st-social-icon i {
+  font-size: 22px;
+}
+
+.st-social-link .st-social-btn .st-icon-name {
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  max-width: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.st-social-link .st-social-btn:hover, .st-social-link .st-social-btn.active {
+  padding-right: 15px;
+}
+
+.st-social-link .st-social-btn:hover .st-icon-name, .st-social-link .st-social-btn.active .st-icon-name {
+  max-width: 140px;
+}
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.navbar-burger{
+  color: #4093a4;
+}
+
+
+.shadow-header {
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.1);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  z-index:200;
+  transition: box-shadow 0.4s, background-color 0.4s;
+}
+
+.main {
+  overflow: hidden; /* For animation ScrollReveal */
+}
+
+
+
+/* Active link */
+.active-link {
+  color: black;
+  font-weight: bold;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+
+  transition: box-shadow 0.4s, background-color 0.4s;
+}
